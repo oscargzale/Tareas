@@ -113,7 +113,7 @@ SubAlgoritmo GenerarAlertas()
 			
 			Para j <- 1 Hasta usersCount Hacer
 				Si ConvertirAEntero(userFails[j,2]) > 2 Entonces
-					Escribir("?? Usuario con múltiples fallos: ", userFails[j,1], " (", userFails[j,2], " intentos).")
+					Escribir("?? Usuario con mÃºltiples fallos: ", userFails[j,1], " (", userFails[j,2], " intentos).")
 					alertas <- alertas + 1
 				FinSi
 			FinPara
